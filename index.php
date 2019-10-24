@@ -1,25 +1,26 @@
+  
 <!DOCTYPE html>
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
 	<title>Trường Đại Học Nguyễn Tất Thành </title>
-	<link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 	<script src="js/jquery-3.4.1.min.js"></script>
-	<script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
 	
 </head>
 <body>
 	<div class="home">
-			<a href="admin/index.php">Đăng nhập</a>	
+			
 		<div class="head head-desktop">
 			<div class="wrapper row top_head">
-				<div class="col-md-3 hotline">
-					HOTLINE: <span id="hotline-1">0902.298.300 - 0906.298.300</span>
+					<div class="col-md-3 hotline">
+					HOTLINE: <span id="hotline">0902.298.300 - 0906.298.300</span>
 					
 				</div>
 				<div class="col-md-5 ">
@@ -33,7 +34,8 @@
 						<i class="fa fa-search" aria-hidden="true"></i>
 					</form>
 					
-					<img src="http://ntt.edu.vn/web/frontend/images/ico-flagen.jpg">
+					<img src="http://ntt.edu.vn/web/frontend/images/ico-flagen.jpg"> &nbsp;&nbsp;
+					<a href="admin/index1.php" style="font-size: 14px ;">ĐĂNG NHẬP</a>
 				</div>
 			</div>
 		</div>
@@ -67,7 +69,7 @@
 				<!-- start responsive -->
 				<div class="content-responsive">
 							<ul>
-								<li><a href="#">HOTLINE: 0902.298.300 - 0906.298.300</a></li>
+								
 								<li><a href="#">SINH VIÊN</a></li>
 								<li><a href="#">GIẢNG VIÊN</a></li>
 								<li><a href="#">ĐÀO TẠO QUỐC TẾ</a></li>
@@ -291,25 +293,7 @@
 					  			
 
 					  		</div>
-					  	</div>
-
-						  <div class="line-slide">
-							<h3>Chính sách học bổng của trường đại học Nguyễn Tất Thành</h3>
-							<div class="control-button">
-								<div class="right">
-									<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-								    <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								    <span class="sr-only">Previous</span> -->
-								    <i class="fas fa-angle-left"></i>
-								  </a>
-								  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-								    <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
-								    <span class="sr-only">Next</span> -->
-								    <i class="fas fa-angle-right"></i>
-								  </a>
-								</div>
-								
-							</div>
+					  	
 							
 						</div>
 
@@ -691,9 +675,9 @@
 	</script>
 	<!--End of Tawk.to Script-->
 </body>
-<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="bootstrap.min.js"></script>
-<script type="text/javascript" src="slick.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
 <script type="text/javascript">
 	$( document ).ready(function() {
     	$('#showCollapse').click(function(){
@@ -715,7 +699,7 @@
     	 	$('.chatbox').show();
     	 });
     	count = 0;
-  		wordsArray = ["0902.298.300 - 0906.298.300","0912.298.300  - 0914.298.300"];
+  		wordsArray = ["0902.298.300 - 0906.298.300"];
     	 setInterval(function () {
 		    count++;
 		    $("#hotline-1").slideUp(600, function () {

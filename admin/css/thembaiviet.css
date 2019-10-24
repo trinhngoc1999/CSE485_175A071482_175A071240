@@ -1,0 +1,68 @@
+#header{
+    background-color: rgb(24, 38, 116);
+    
+    width: 100%;
+}
+.title{
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+   
+   
+   
+}
+.title a {
+    margin-top: 10px
+}
+a{
+    color: white;
+
+}
+a:hover{
+    color: #dee0da
+}
+.ad_logout{
+    margin-left: 1000px;
+    margin-top: -33px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-item{
+    display: block;
+    padding: .5rem 1rem;
+}
+.content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background: #eee;
+}
+.content-left{
+    background-color: rgb(90, 106, 250);
+    width: 23%;
+    height:600px;
+}
+.nav-item1{
+    display: block;
+    padding: .5rem 1rem;
+}
+.nav-item1 a{
+   
+    font-size: 18px;
+    margin-left: 15px;
+}
+.nav-item1 a:hover{
+    color: #ee170f
+}
+.nav-item1 a:hover{
+    color: #fc2929
+}
+.content-right{
+    width: 75%;
+ }
+ .content-right h1{
+     color: #1b1d1b;
+     margin-left: 30%;
+     margin-top: 10%;
+ }
+ form{
+     margin-left: 5%;
+ }
